@@ -1,0 +1,82 @@
+﻿@model StoreFront.DATA.EF.Product
+@{
+    ViewBag.Title = "Home";
+}
+
+<!--Showcase of Products-->
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+    <!-- Overlay -->
+    <div class="overlay"></div>
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#bs-carousel" data-slide-to="1"></li>
+        <li data-target="#bs-carousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item slides active">
+            <div class="slide-1"></div>
+            <div class="hero">
+                <img src="~/Content/images/pinkhood.jpg" class="img-responsive img-rounded" style="margin: 0 auto; margin-bottom: 3em; height: 417px;" />
+                <hgroup class="text-center">
+                    <span class="price myPad">$30</span>
+                    <h2>Baby Pink Hoodie</h2>
+                    <p>Cute, Comfty, and Cool!</p>
+                </hgroup>
+            </div>
+        </div>
+        <div class="item slides">
+            <div class="slide-2"></div>
+            <div class="hero">
+                <img src="~/Content/images/greyjoggs.jpg" class="img-responsive img-rounded" style="margin: 0 auto; margin-bottom: 3em; height: 417px;" />
+                <hgroup class="text-center">
+                    <span class="price myPad">$38</span>
+                    <h2>Steel Jogger</h2>
+                    <p>Cute, Comfty, and Cool!</p>
+                </hgroup>
+            </div>
+        </div>
+        <div class="item slides">
+            <div class="slide-3"></div>
+            <div class="hero">
+                <img src="~/Content/images/legging.jpg" class="img-responsive img-rounded" style="margin: 0 auto; margin-bottom: 3em; height: 417px;" />
+                <hgroup class="text-center">
+                    <span class="price myPad">$45</span>
+                    <h2>Emerald Green Legging</h2>
+                    <p>Cute, Comfty, and Cool!</p>
+                </hgroup>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Showcase of Products-->
+
+<!--NewsLetter-->
+<div id="fh5co-started">
+        <div class="container">
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>Subscribe Here</h2>
+                    <p>Keep up to date on new products and various discounts!</p>
+                </div>
+            </div>
+            <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2">
+                    <form class="form-inline">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <label for="email" class="sr-only">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <button type="submit" class="btn btn-default btn-block">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--NewsLetter-->

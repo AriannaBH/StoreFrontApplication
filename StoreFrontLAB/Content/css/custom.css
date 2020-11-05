@@ -1,0 +1,52 @@
+﻿.partial {
+    float: left;
+    display: block;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fh5co-nav .menu-2 li a.cart span small, #fh5co-started {
+    background: #f56660;
+}
+
+.btn-primary.btn-outline {
+    color: #f56660;
+    border: 2px solid #f56660;
+}
+
+    .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+        background: #f56660 !important;
+        border-color: #f56660 !important;
+    }
+
+.fh5co-social-icons li a, a {
+    color: #f56660;
+}
+
+    a:hover, a:active, a:focus{
+        color: black;
+    }
+
+    .myPad {
+        margin-top: 3em;
+    }
+
+.myImage {
+    height: 200px;
+    width: auto;
+}
+
+myBtn, .btn-default {
+    color: #f56660;
+    border: 2px solid #f56660;
+}
+
+    myBtn:hover, .btn-default:hover {
+        background: #f56660 !important;
+        border: 2px solid black !important;
+        color: white !important;
+    }
+
+::selection {
+    background: #f56660 !important;
+}

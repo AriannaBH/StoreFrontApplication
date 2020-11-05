@@ -1,0 +1,15 @@
+﻿@model StoreFrontLAB.Models.IndexViewModel
+@{
+    ViewBag.Title = "Manage your account";
+}
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<p class="text-success">@ViewBag.StatusMessage</p>
+
+    <div class="text-center">
+        <p>
+            @(Model.HasPassword ? Html.ActionLink("Change your password", "ChangePassword") 
+                : Html.ActionLink("Pick a password", "SetPassword"))
+        </p>
+    </div>
+
